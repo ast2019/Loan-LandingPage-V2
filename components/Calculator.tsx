@@ -119,9 +119,13 @@ const Calculator: React.FC = () => {
                 </div>
               </div>
 
-              <button className="w-full bg-slate-900 text-white py-4 lg:py-6 rounded-2xl lg:rounded-[2.5rem] font-black text-lg lg:text-xl shadow-xl hover:bg-black transition-all transform hover:-translate-y-1 shine-soft">
-                تکمیل درخواست در پنل
-              </button>
+<a 
+  href="https://loan.ttshahr.com" 
+  target="_blank"
+  className="block w-full text-center bg-slate-900 text-white py-4 lg:py-6 rounded-2xl lg:rounded-[2.5rem] font-black text-lg lg:text-xl shadow-xl hover:bg-black transition-all transform hover:-translate-y-1 shine-soft"
+>
+  تکمیل درخواست در پنل
+</a>
 
               <div className="flex gap-3 lg:gap-4 p-4 lg:p-6 bg-amber-50 rounded-2xl lg:rounded-3xl border border-amber-100 shadow-inner">
                 <div className="w-5 h-5 lg:w-6 lg:h-6 shrink-0 text-amber-500 mt-0.5">
