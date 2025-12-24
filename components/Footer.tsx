@@ -70,10 +70,10 @@ const Footer: React.FC = () => {
               </h4>
               <ul className="space-y-5">
                 {[
-                  { label: "تورهای داخلی", href: "#" },
-                  { label: "تورهای خارجی", href: "#" },
-                  { label: "خدمات CIP", href: "#" },
-                  { label: "سفر کارت کیش", href: "#" }
+                  { label: "تورهای داخلی", href: "https://ttshahr.com/tour/" },
+                  { label: "تورهای خارجی", href: "https://ttshahr.com/tour/" },
+                  { label: "خدمات CIP", href: "https://ttshahr.com/ceremonies-cip/" },
+                  { label: "خدمات ویزا", href: "https:/ttshahr.com/visa-2/" }
                 ].map((link) => (
                   <li key={link.label}>
                     <a href={link.href} className="text-slate-400 hover:text-white transition-all text-sm font-bold flex items-center gap-2">
@@ -92,10 +92,10 @@ const Footer: React.FC = () => {
               </h4>
               <ul className="space-y-5">
                 {[
-                  { label: "طرح توران", href: "#" },
-                  { label: "پشتیبانی", href: "#" },
+                  { label: "کارت تخفیف", href: "https://ttshahr.com/ceremonies-cip/" },
+                  { label: "پشتیبانی", href: "https://help.raychat.io/fcb7fd33-97ac-4e8a-a42a-458f9b7412fc" },
                   { label: "سوالات متداول", href: "#faq" },
-                  { label: "قوانین", href: "#" }
+                  { label: "تماس با ما", href: "https://ttshahr.com/contact-us/" }
                 ].map((link) => (
                   <li key={link.label}>
                     <a href={link.href} className="text-slate-400 hover:text-white transition-all text-sm font-bold flex items-center gap-2">
