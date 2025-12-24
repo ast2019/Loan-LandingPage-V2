@@ -4,14 +4,14 @@ import React from 'react';
 const Footer: React.FC = () => {
   // Using remote URL for the main logo (matching Header) and placeholders for trust logos
   // to avoid build/runtime errors with local asset imports in this environment.
-  const LogoImage = "/logo.svg";
+  const LogoImage = "/logo_tt.svg";
   
   // You should replace these with actual CDN URLs or valid local paths served by your public folder
   const BankShahrLogo = "/BankShahr.svg";
   const EnamadLogo = "/Enamad.svg";
   const SamandehiLogo = "/Samandehi.svg";
-  const MosaferLogo = "/mosafer.svg";
-  const CaoLogo = "/state-airline-f45c55b2.svg";
+  const MosaferLogo = "/mosafer1.svg";
+  const CaoLogo = "/al.svg";
 
   return (
     <footer className="relative bg-[#0b1120] text-white pt-24 pb-8 overflow-hidden">

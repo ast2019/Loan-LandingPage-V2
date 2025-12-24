@@ -7,9 +7,9 @@ const Header: React.FC = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const navLinks = [
-    { label: "رزرو تور", href: "https://demo.ttshahr.com/tour/" },
+    { label: "صفحه اصلی", href: "https://ttshahr.com/" },
+    { label: "رزرو تور", href: "https://ttshahr.com/tour/" },
     { label: "سفر کارت", href: "https://kish.ttshahr.com/" },
-    { label: "طرح توران", href: "#plan-overview" },
     { label: "سوالات متداول", href: "#faq" },
   ];
 
