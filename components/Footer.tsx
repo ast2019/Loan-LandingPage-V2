@@ -4,13 +4,13 @@ import React from 'react';
 const Footer: React.FC = () => {
   // Using remote URL for the main logo (matching Header) and placeholders for trust logos
   // to avoid build/runtime errors with local asset imports in this environment.
-  const LogoImage = "https://demo.ttshahr.com/wp-content/themes/shamim/assets/img/logo.png";
+  const LogoImage = "/logo-ttttt.webp";
   
   // You should replace these with actual CDN URLs or valid local paths served by your public folder
   const BankShahrLogo = "https://placehold.co/150x150/white/ea4037?text=Bank+Shahr";
   const EnamadLogo = "https://placehold.co/150x150/white/ea4037?text=eNamad";
   const SamandehiLogo = "https://placehold.co/150x150/white/ea4037?text=Samandehi";
-  const MosaferLogo = "https://placehold.co/150x150/white/ea4037?text=Passenger+Rights";
+  const MosaferLogo = "/mosafer.jpg";
   const CaoLogo = "https://placehold.co/150x150/white/ea4037?text=CAO";
 
   return (
