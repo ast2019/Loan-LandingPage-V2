@@ -7,11 +7,11 @@ const Footer: React.FC = () => {
   const LogoImage = "/logo-ttttt.webp";
   
   // You should replace these with actual CDN URLs or valid local paths served by your public folder
-  const BankShahrLogo = "https://placehold.co/150x150/white/ea4037?text=Bank+Shahr";
-  const EnamadLogo = "https://placehold.co/150x150/white/ea4037?text=eNamad";
-  const SamandehiLogo = "https://placehold.co/150x150/white/ea4037?text=Samandehi";
+  const BankShahrLogo = "/BankShahr.svg";
+  const EnamadLogo = "/Enamad.svg";
+  const SamandehiLogo = "/Samandehi.svg";
   const MosaferLogo = "/mosafer.jpg";
-  const CaoLogo = "https://placehold.co/150x150/white/ea4037?text=CAO";
+  const CaoLogo = "/state-airline-f45c55b2.jpg";
 
   return (
     <footer className="relative bg-[#0b1120] text-white pt-24 pb-8 overflow-hidden">
