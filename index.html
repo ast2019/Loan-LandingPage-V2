@@ -9,6 +9,8 @@
   <!-- بارگذاری فونت وزیرمتن -->
   <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
 
+  <!-- Tailwind via CDN for simplicity, though PostCSS in build is better practice. 
+       Keeping it here to ensure styles work without extra CSS file setup immediately. -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -124,19 +126,23 @@
       animation-delay: 2s;
     }
   </style>
-  <script type="importmap">
-  {
-    "imports": {
-      "react": "https://esm.sh/react@^19.2.3",
-      "react/": "https://esm.sh/react@^19.2.3/",
-      "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
-    }
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "vite": "https://esm.sh/vite@^7.3.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
   }
-  </script>
+}
+</script>
 </head>
 <body class="text-[#111111] selection:bg-[#ea4037] selection:text-white">
   <div class="scroll-progress" id="progress-bar"></div>
   <div id="root"></div>
+  <!-- Vite will inject the module script here correctly during build -->
+  <script type="module" src="/index.tsx"></script>
   <script>
     window.addEventListener('scroll', () => {
       const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
