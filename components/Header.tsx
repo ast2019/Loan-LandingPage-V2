@@ -19,7 +19,7 @@ const Header: React.FC = () => {
         <div className="flex items-center gap-12">
           <a href="/" className="flex items-center group">
             <img 
-              src="https://demo.ttshahr.com/wp-content/themes/shamim/assets/img/logo.png" 
+              src="/logo.svg" 
               alt="تی تی شهر" 
               className="h-12 w-auto object-contain group-hover:scale-105 transition-transform"
               onError={(e) => {

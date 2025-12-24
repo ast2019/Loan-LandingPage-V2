@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
                 </div>
                 <div className="text-right">
                   <div className="text-[9px] text-slate-400 font-black uppercase tracking-widest">تخصیص آنی اعتبار</div>
-                  <div className="text-sm lg:text-base font-black text-slate-900">پس از اعتبارسنجی</div>
+                  <div className="text-sm lg:text-base font-black text-slate-900">پس از اعطای وام از بانک</div>
                 </div>
               </div>
               <div className="flex items-center gap-3 lg:gap-4">
@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute -inset-4 lg:-inset-6 bg-gradient-to-br from-[#ea4037]/20 to-transparent rounded-[3rem] lg:rounded-[4rem] blur-2xl lg:blur-3xl opacity-50"></div>
               <img 
-                src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?q=80&w=1000&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop" 
                 alt="Travel Destination" 
                 className="relative w-full h-[400px] lg:h-[600px] object-cover rounded-[2.5rem] lg:rounded-[3.5rem] shadow-2xl border-4 lg:border-8 border-white hover:scale-[1.01] transition-transform duration-700"
               />

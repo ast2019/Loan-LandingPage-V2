@@ -32,7 +32,7 @@ const PlanOverview: React.FC = () => (
         <div className="relative reveal mt-8 lg:mt-0" style={{ transitionDelay: '0.3s' }}>
           <div className="absolute -inset-10 bg-red-50 rounded-full blur-[80px] lg:blur-[100px] opacity-60"></div>
           <img 
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop" 
             alt="Premium Travel" 
             className="relative w-full h-[350px] lg:h-[600px] object-cover rounded-[2.5rem] lg:rounded-[4.5rem] shadow-2xl border-4 border-white transform hover:rotate-1 transition-all duration-1000"
           />
