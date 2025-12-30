@@ -85,7 +85,7 @@ const Header: React.FC = () => {
             href="https://loan.ttshahr.com" 
             className="bg-slate-900 text-white w-full py-4 rounded-2xl text-center font-bold shadow-lg shadow-slate-200 mt-4"
           >
-            پنل اعتبار سنجی وام
+            ورود به سامانه وام
           </a>
         </div>
       </div>
