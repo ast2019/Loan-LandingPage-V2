@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
                   { label: "تورهای داخلی", href: "https://ttshahr.com/tour/" },
                   { label: "تورهای خارجی", href: "https://ttshahr.com/tour/" },
                   { label: "خدمات CIP", href: "https://ttshahr.com/ceremonies-cip/" },
-                  { label: "خدمات ویزا", href: "https:/ttshahr.com/visa-2/" }
+                  { label: "خدمات ویزا", href: "https://ttshahr.com/visa-2/" }
                 ].map((link) => (
                   <li key={link.label}>
                     <a href={link.href} className="text-slate-400 hover:text-white transition-all text-sm font-bold flex items-center gap-2">
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
               </h4>
               <ul className="space-y-5">
                 {[
-                  { label: "کارت تخفیف", href: "https://ttshahr.com/ceremonies-cip/" },
+                  { label: "کارت تخفیف", href: "https://gift.ttshahr.com/" },
                   { label: "پشتیبانی", href: "https://help.raychat.io/fcb7fd33-97ac-4e8a-a42a-458f9b7412fc" },
                   { label: "سوالات متداول", href: "#faq" },
                   { label: "تماس با ما", href: "https://ttshahr.com/contact-us/" }
