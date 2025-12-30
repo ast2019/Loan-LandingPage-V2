@@ -21,7 +21,7 @@ const Header: React.FC = () => {
             <img 
               src="/logo_tt.svg" 
               alt="تی تی شهر" 
-              className="h-12 w-auto object-contain group-hover:scale-105 transition-transform"
+              className="h-20 w-auto object-contain group-hover:scale-105 transition-transform"
               onError={(e) => {
                 (e.target as HTMLImageElement).src = 'https://placehold.co/180x60/ea4037/white?text=TTShahr+Logo';
               }}
