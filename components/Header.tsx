@@ -44,7 +44,6 @@ const Header: React.FC = () => {
         <div className="flex items-center gap-4">
           <a 
             href="https://loan.ttshahr.com" 
-            target="_blank" 
             className="hidden sm:flex items-center justify-center bg-slate-900 text-white px-6 py-3 rounded-2xl text-sm font-bold hover:bg-black transition-all shadow-xl shadow-slate-200"
           >
             پنل اعتبار سنجی وام
@@ -84,7 +83,6 @@ const Header: React.FC = () => {
           ))}
           <a 
             href="https://loan.ttshahr.com" 
-            target="_blank" 
             className="bg-slate-900 text-white w-full py-4 rounded-2xl text-center font-bold shadow-lg shadow-slate-200 mt-4"
           >
             پنل اعتبار سنجی وام

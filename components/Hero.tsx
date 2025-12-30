@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { ShieldCheckIcon, CalendarIcon } from './Icons';
 
 const Hero: React.FC = () => {
@@ -29,8 +29,8 @@ const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center gap-4 lg:gap-5 justify-center lg:justify-start">
               <a 
   href="https://loan.ttshahr.com" 
-  target="_blank" 
-  rel="noopener noreferrer"
+  
+  
   className="w-full sm:w-auto px-10 lg:px-12 py-4 lg:py-5 bg-[#ea4037] text-white rounded-[1.5rem] lg:rounded-[2rem] font-black text-lg lg:text-xl shadow-2xl shadow-red-200 hover:bg-[#d1352d] transition-all transform hover:scale-[1.03] shine-soft inline-block text-center"
 >
   شروع درخواست

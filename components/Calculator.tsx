@@ -121,7 +121,6 @@ const Calculator: React.FC = () => {
 
 <a 
   href="https://loan.ttshahr.com" 
-  target="_blank"
   className="block w-full text-center bg-slate-900 text-white py-4 lg:py-6 rounded-2xl lg:rounded-[2.5rem] font-black text-lg lg:text-xl shadow-xl hover:bg-black transition-all transform hover:-translate-y-1 shine-soft"
 >
   تکمیل درخواست در پنل
