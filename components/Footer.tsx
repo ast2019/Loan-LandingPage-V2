@@ -2,9 +2,6 @@
 import React from 'react';
 
 const Footer: React.FC = () => {
-  // Using remote URL for the main logo (matching Header) and placeholders for trust logos
-  // to avoid build/runtime errors with local asset imports in this environment.
-  const LogoImage = "/logo_tt.svg";
   
   // You should replace these with actual CDN URLs or valid local paths served by your public folder
   const BankShahrLogo = "/BankShahr.svg";
@@ -25,16 +22,6 @@ const Footer: React.FC = () => {
           
           {/* Brand & Mission */}
           <div className="lg:col-span-4 space-y-10">
-            <div className="inline-block bg-white/5 p-4 rounded-3xl border border-white/10">
-              <img 
-                src={LogoImage}
-                alt="تی تی شهر" 
-                className="h-14 w-auto object-contain"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = 'https://placehold.co/220x80/ea4037/white?text=TTShahr';
-                }}
-              />
-            </div>
             <p className="text-slate-400 text-base leading-relaxed font-medium">
               تی تی شهر، پیشرو در ارائه راهکارهای نوین گردشگری دیجیتال. با ارائه طرح تسهیلاتی توران، دریچه‌ای جدید به سوی سفرهای اقساطی برای شما می‌گشاییم.
             </p>
