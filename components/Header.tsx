@@ -46,7 +46,7 @@ const Header: React.FC = () => {
             href="https://loan.ttshahr.com" 
             className="hidden sm:flex items-center justify-center bg-slate-900 text-white px-6 py-3 rounded-2xl text-sm font-bold hover:bg-black transition-all shadow-xl shadow-slate-200"
           >
-            پنل اعتبار سنجی وام
+              ورود به سامانه وام
           </a>
           
           {/* Hamburger Button */}

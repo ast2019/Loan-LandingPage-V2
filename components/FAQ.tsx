@@ -54,18 +54,6 @@ const FAQ: React.FC = () => {
             </div>
           ))}
         </div>
-
-        <div className="mt-20 p-12 bg-slate-900 rounded-[3rem] text-center text-white relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-[#ea4037]/20 rounded-full blur-2xl"></div>
-          <h3 className="text-3xl font-black mb-4">برای ادامه آماده‌ای؟</h3>
-          <p className="text-white/60 mb-10 max-w-md mx-auto">در مرحله بعد اطلاعات لازم را وارد می‌کنی تا فرآیند بررسی و اعتبارسنجی شروع شود.</p>
-<a 
-  href="https://loan.ttshahr.com" 
-  className="inline-block text-center bg-[#ea4037] text-white px-12 py-5 rounded-2xl font-black text-xl shadow-2xl hover:bg-[#d1352d] transition-all transform hover:scale-105 active:scale-95 cursor-pointer"
->
-   ادامه و تکمیل مرحله بعد
-</a>
-        </div>
       </div>
     </section>
   );
