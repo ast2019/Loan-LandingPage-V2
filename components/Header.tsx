@@ -9,7 +9,7 @@ const Header: React.FC = () => {
   const navLinks = [
     { label: "صفحه اصلی", href: "https://ttshahr.com/" },
     { label: "رزرو تور", href: "https://ttshahr.com/tour/" },
-    { label: "سفر کارت", href: "https://kish.ttshahr.com/" },
+    { label: "سفر کارت", href: "https://safarcard.ttshahr.com/" },
     { label: "سوالات متداول", href: "#faq" },
   ];
 
